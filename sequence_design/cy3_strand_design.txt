@@ -1,0 +1,41 @@
+Domain results:
+                Domain        Sequence
+                bright           GCGCG
+                   dim           GCCCC
+                linker           TTTTT
+                spacer TTTTTTTTTTTTTTT
+trinucleotide_stand_in           TGTCT
+
+Strand results:
+          Strand                       Sequence
+brightest_strand TTTTTTGTCTTTTTTTTTTTTTTTTGCGCG
+  dimmest_strand TTTTTTGTCTTTTTTTTTTTTTTTTGCCCC
+
+Objective function:
+          Objective type  Value
+Weighted ensemble defect 0.0180
+
+Ensemble defect: 0.0180
+
+Complex Complex defect (nt) Normalized complex defect
+ bright               0.167                   0.00557
+    dim               0.166                   0.00554
+
+On-target complex defects:
+       Tube Tube defect (M) Normalized tube defect
+bright_tube        9.11e-09                 0.0304
+   dim_tube        1.66e-09                0.00555
+
+Tube defects:
+       Tube On-target complex Structural defect (M) Concentration defect (M) Total defect (M)
+bright_tube            bright              1.63e-09                 7.48e-09         9.11e-09
+   dim_tube               dim              1.66e-09                 1.13e-12         1.66e-09
+
+On-target complex concentrations:
+       Tube Complex Concentration (M) Target concentration (M)
+bright_tube  bright          9.75e-09                 1.00e-08
+   dim_tube     dim          1.00e-08                 1.00e-08
+
+Significant off-target complex concentrations (>= 1% max complex concentration in tube):
+    Tube Complex Concentration (M)
+dim_tube       -                  
